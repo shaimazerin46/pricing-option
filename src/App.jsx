@@ -3,6 +3,7 @@
 import './App.css'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import Navbar from './components/Navbar/Navbar'
+import PriceOption from './components/PriceOption/PriceOption'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navbar></Navbar>
       {/* <DaisyNav></DaisyNav> */}
+      <PriceOption></PriceOption>
      
     </>
   )
